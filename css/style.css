@@ -4,21 +4,27 @@
     padding: 0;
 }
 
+.container {
+    max-width: 80%;
+	margin: 0 auto;
+}
+
+.dashed {
+    border: dashed 2px black;
+}
+
 /************************* header ***************************/
 header {
     background-color: rgba(0, 255, 255, 0.288);
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 20px 0 0 0;
 
     justify-content: space-around;
 	align-items: center;
 }
 
 .header-top {
-    max-width: 70%;
-	margin: 0 auto;
-
     display: flex;
     flex-direction: row;
 
@@ -26,7 +32,8 @@ header {
 	align-items: center;
 	flex-wrap: wrap;
     background-color: orange;
-    padding: 10px;
+    padding: 15px;
+    margin: 0 0 10px 0;
 
     width: 100%;
 }
@@ -51,12 +58,12 @@ header {
     background-color: blue;
     padding: 30px;
     margin-top: 10px;
-    margin-bottom: 1px;
-    width: 110%;
+    width: 100%;
 }
 
 .bottom-menu {
-    width: 55%;
+    width: 50%;
+    max-width: 1000px;
     min-height: 300px;
     background-color: deeppink;
 }
@@ -74,13 +81,13 @@ header {
 }
 
 .navbar-blue {
-    width: 45%;
+    width: 50%;
     min-height: 350px;
-    background-color: royalblue;
+    background-color: dodgerblue;
 }
 
 .main-pink {
-    width: 25%;
+    width: 30%;
     min-height: 350px;
     background-color: pink;
 }
@@ -97,21 +104,21 @@ header {
 }
 
 .navbar-pink {
-    width: 25%;
+    width: 30%;
     min-height: 350px;
-    background-color: royalblue;
+    background-color: dodgerblue;
 }
 
 .main-blue {
-    width: 45%;
+    width: 50%;
     min-height: 350px;
     background-color: pink;
 }
 
 .main-green {
-    width: 70%;
+    width: 80%;
     min-height: 600px;
-    background-color: green;
+    background-color: forestgreen;
 }
 
 /************************* FOOTER ***************************/
@@ -125,7 +132,7 @@ footer {
 }
 
 .footer-top {
-    width: 70%;
+    width: 80%;
 	margin: 0 auto;
 
     display: flex;
@@ -133,6 +140,7 @@ footer {
 	align-items: center;
 
     margin-top: 5px;
+    margin-bottom: 30px;
 }
 
 .footer-pink {
@@ -153,7 +161,7 @@ footer {
 }
 
 .footer-bottom {
-    width: 70%;
+    width: 80%;
 	margin: 0 auto;
 
     display: flex;
